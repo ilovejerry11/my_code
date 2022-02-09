@@ -4,7 +4,7 @@ import time
 
 # webdriver執行黨的位置
 path = "" 
-driver = webdriver.Chrome(path)
+driver = webdriver.Chrome(path) # or other webdriver
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
